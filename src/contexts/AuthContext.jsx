@@ -8,7 +8,7 @@ import server from "../environment";
 export const AuthContext = createContext({});
 
 const client = axios.create({
-    baseURL: "https://connect-sphere-backend-2.onrender.com/api/v1/users",
+    baseURL: "https://connectsphere-backend-oyhr.onrender.com",
 })
 
 
